@@ -3,4 +3,4 @@ def movie_remove(movies, index):
         del movies[index]
         print(f"Movie at index {index} removed.")
     else:
-        print("Invalid index. Error removing movie")
+        print(f"Invalid index. Error removing movie at {index}")
