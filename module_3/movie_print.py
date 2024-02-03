@@ -5,3 +5,4 @@ def movie_print(movies, rating):
         else:
             if movie.rating == rating:
                 print(f"{movie.name} - Rated {movie.rating}, Price: {movie.price}")
+                
